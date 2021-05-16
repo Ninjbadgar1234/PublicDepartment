@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+    />
+    
+    <script
+      src="https://kit.fontawesome.com/743c4bf4e6.js"
+      crossorigin="anonymous"
+    ></script>
+   
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="style/style.css" />
+    <title>IT Department</title>
+  </head>
+  <body>
+    <!-- Top contact -->
+    <div class="has-text-white top" id="contTop">
+      <div class="ded">Утас: 99118556</div>
+      <div class="ded">Мэйл: ider@ider.edu.mn</div>
+      <div class="ded">Хаяг: СБД оюутны гудамж</div>
+    </div>
+    <!-- Logos -->
+    <div class="has-background-white has-text-white top">
+      <img src="img/ider.png" class="dud" alt="" />
+      <img src="img/bus.jpg" class="dud" alt="" />
+    </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar is-info" id="nav">
+      <div class="navbar-brand">
+        <a href="#" class="navbar-item  mr-5">
+          <img src="img/IT.png" alt="" style="max-height: 50px" class="px-5" />
+          <div class="textt">
+            Imformation Technology<br />
+            Department
+          </div>
+        </a>
+
+        <a class="navbar-burger" id="burger" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="nav-links" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="index.html" class="navbar-item"> Нүүр </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> Бидний Тухай </a>
+            <div class="down navbar-dropdown down">
+              <a href="mendchilgee.html" class="navbar-item "> Мэндчилгээ </a>
+              <a href="department.html" class="navbar-item"> Тэнхмийн танилцуулга </a>
+              <a href="vision.html" class="navbar-item"> Зорилго, Алсын хараа </a>
+              <a href="staff.html" class="navbar-item"> Багш, ажилчид </a>
+              <hr class="navbar-divider" />
+              <a class="navbar-item"> Оюутнууд </a>
+              <!-- <a class="navbar-item"> Төгсөгчид </a> -->
+            </div>
+          </div>
+
+          <a class="navbar-item"> Гадаад харилцаа </a>
+          <!-- <a class="navbar-item"> Клубууд </a> -->
+
+          <a href="news.html" class="navbar-item"> Мэдээ </a>
+          <a class="navbar-item"> Event </a>
+          <a href="contact.html" class="navbar-item"> Холбогдох </a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="profile.html" class="button is-info is-light" >
+                <i class="fas fa-user-graduate is-size-6 pr-1"></i> <strong> Профайл</strong>
+              </a>
+              <a class="button is-light" id="login"> Гарах </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Modal Sign Up-->
+  <div class="modal ">
+    <div class="modal-background"></div>
+    <div class="modal-content has-background-white py-5 px-5 ">
+      <label class="title is-size-4">Бүртгүүлэх</label>
+      <form class="mt-5" action="#">
+        <div class="field">
+          <label for="" class="label">Овгоо оруулна уу.</label>
+          <p class="control has-icons-left">
+            <input class="input" type="text" placeholder="Овгоо оруулна уу.">
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+          </p>
+        </div>
+        <div class="field">
+          <label for="" class="label">Нэрээ оруулна уу.</label>
+          <p class="control has-icons-left">
+            <input class="input" type="text" placeholder="Нэрээ оруулна уу.">
+            <span class="icon is-small is-left">
+              <i class="far fa-user"></i>
+            </span>
+          </p>
+        </div>
+      <div class="field">
+        <label for="" class="label">И-Мэйл ээ оруулна уу.</label>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input" type="email" placeholder="И-Мэйл">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span>
+        </p>
+      </div>
+      <div class="field">
+        <label for="" class="label">Нууц үгээ оруулна уу.</label>
+        <p class="control has-icons-left">
+          <input class="input" type="password" placeholder="Нууц үг">
+          <span class="icon is-small is-left">
+            <i class="fas fa-lock"></i>
+          </span>
+        </p>
+      </div>
+      <div class="field">
+        <label for="" class="label">Нууц үгээ дахин оруулна уу.</label>
+        <p class="control has-icons-left">
+          <input class="input" type="password" placeholder="Нууц үгээ давтна уу.">
+          <span class="icon is-small is-left">
+            <i class="fas fa-lock"></i>
+          </span>
+        </p>
+      </div>
+      <input type="submit" class="button is-link dar">
+    </form> 
+    </div>
+  </div>
+  <!-- Modal Login -->
+  <div class="modal modal2">
+    <div class="modal-background back2"></div>
+    <div class="modal-content has-background-white py-5 px-5 ">
+      <label class="title is-size-4">Нэвтрэх</label>
+      <form class="mt-5" action="#">
+        <div class="field">
+          <label for="" class="label">Нэвтрэх нэрээ оруулна уу.</label>
+          <p class="control has-icons-left">
+            <input class="input" type="text" placeholder="Нэвтрэх нэрээ оруулна уу.">
+            <span class="icon is-small is-left">
+              <i class="far fa-user"></i>
+            </span>
+          </p>
+        </div>
+      <div class="field">
+        <label for="" class="label">Нууц үгээ оруулна уу.</label>
+        <p class="control has-icons-left">
+          <input class="input" type="password" placeholder="Нууц үг">
+          <span class="icon is-small is-left">
+            <i class="fas fa-lock"></i>
+          </span>
+        </p>
+      </div>
+      <input type="submit" class="button is-link dar">
+    </form> 
+    </div>
+  </div>
+   
+
+     <!-- Header side -->
+    <section class="section  head ">
+      <div class="container">
+        <a id="signup"><button class="button is-info " style="background-color: #2e5a9d">Нийтлэл бичих</button> </a>
+      </div>
+    </section>
+    </section> 
+    <section id="posts" class="section">
+			<div class="container hid ">
+        <a href="posts.html"><h1 class="garchig" >Нийтлэлүүд</h1></a>
+				<!-- Start Carousel -->
+				<div id="carousel-demo" class="carousel">
+          <a href="post.html" class="colour">
+					<div class="item-1 item">
+						<!-- Slide Content -->
+            <h1 class="title is-size-5">Turtogtokh</h1>
+            <p class="subtitle is-size-6">2020/2/12</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam corrupti quod corporis accusamus autem quis debitis omnis molestiae a tempora?</p>
+					</div>
+        </a>
+        <a href="post.html" class="colour">
+					<div class="item-2 item">
+						<!-- Slide Content -->
+            <h1 class="title is-size-5">Delgerjargal</h1>
+            <p class="subtitle is-size-6">2020/2/12</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam corrupti quod corporis accusamus autem quis debitis omnis molestiae a tempora?</p>
+					</div>
+        </a>
+          <a href="post.html" class="colour">
+					<div class="item-3 item">
+						<!-- Slide Content -->
+            <h1 class="title is-size-5">Tuk</h1>
+            <p class="subtitle is-size-6">2020/2/12</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam corrupti quod corporis accusamus autem quis debitis omnis molestiae a tempora?</p>
+					</div>
+        </a>
+          <a href="post.html" class="colour">
+					<div class="item-4 item">
+						<!-- Slide Content -->
+            <h1 class="title is-size-5">Munkhjin</h1>
+            <p class="subtitle is-size-6">2020/2/12</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam corrupti quod corporis accusamus autem quis debitis omnis molestiae a tempora?</p>
+					</div>
+        </a>
+          <a href="post.html" class="colour">
+					<div class="item-5 item">
+						<!-- Slide Content -->
+            <h1 class="title is-size-5">Urangoo</h1>
+            <p class="subtitle is-size-6">2020/2/12</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam corrupti quod corporis accusamus autem quis debitis omnis molestiae a tempora?</p>
+					</div>
+        </a>
+				</div>
+				<!-- End Carousel -->
+			</div>
+		</section>
+    <!-- About Ider University -->
+    <section id="ider">
+      <div class="back">
+        <div class="container">
+          <div class="bagananuud">
+            <div class="bagana school is-6 has-text-centered">
+              <img src="img/school.png" alt="alt" />
+            </div>
+            <div class="bagana is-5 has-text-white sur">
+              <h1
+                class="subtitle mt-5 pt-3 is-size-3 has-text-white has-text-centered"
+              >
+                Манай сургууль
+              </h1>
+              <p>
+                Манай сургууль 1995 оноос хойш өдөр, орой, эчнээ хэлбэрээр бакалавр, магистр, докторын түвшинд 20 гаруй мэргэжлээр сургалт явуулж байна. Өнөөдөр аль ч түвшний судалгаа болон мэргэжлийн хүмүүсийн саналаар Идэр Их сургууль хувийн хэвшлийн топ-10 сургуулийн тоонд багтжээ. Энэ бол бидний олон жилийн хөдөлмөрийн үр дүн, залуу үеийнхээ төлөө гэсэн сайхан сэтгэлийн хариу юм.
+Идэр Их сургууль зөвхөн сүүлийн хичээлийн жилд Монголын их дээд сургуулийн холбооны “Шилдэг дээд сургууль” өргөмжлөл хүртэж Гранд-Экспо үзэсгэлэнгээс үндэсний шилдэг дээд сургууль номинаци БСШУЯ, Мишээл групптай хамтран зохион байгуулсан үзэсгэлэн яармагаас “Оновчтой маркетингтай байгууллага”-ын шагналыг авсандаа баяртай байна.
+
+​
+              </p>
+              <!-- <progress class="progress is-small " value="45%" max="100">45%</progress> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Sport zaal -->
+    <section class="zaal">
+      <div class="container">
+        <div class="bagananuud zaal1 has-text-centered">
+          <div class="bagana px-5  py-3">
+            <h1 class="subtitle is-size-3 has-text-centered pt-3 mt-3">
+              Спорт Заал
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis ullam laudantium aperiam assumenda. Soluta vero,
+              earum voluptas eius iure id recusandae animi debitis dolore
+              perspiciatis tempora doloremque minus! Voluptates suscipit quidem
+              praesentium magni nostrum quo voluptatem soluta necessitatibus
+              debitis labore!
+            </p>
+            <button id="lookNumber" class="button is-info phoneNumber my-4">
+              Дугаар харах
+            </button>
+          </div>
+          <div id="gym" class="gym bagana">
+            <img src="img/gym.jpg" class="py-5" alt="" />
+          </div>
+        </div>
+        <!-- Modal -->
+  <div class="modal modal1">
+    <div class="modal-background back1"></div>
+    <div class="modal-content has-background-white py-5 px-5 ">
+      <label class="title px-5 is-size-4">(+976) 99119911</label>
+    </div>
+  </div>
+      </div>
+    </section>
+   
+    <!-- Post slider -->
+    <section>
+      <div id="slider" class="post-slider">
+        <a href="news.html" class="ho"><h1 class="slider-title title  has-text-centered">
+          Мэдээ мэдээлэл
+        </h1></a>
+        <!-- arrow -->
+        <div class="arrows">
+        <i class="fas fa-angle-left prev"></i>
+        <i class="fas fa-angle-right next"></i>
+      </div>
+        <div class="post-wrapper">
+          <!-- card -->
+          <a href="#" class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="img/news1.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4"><i class="fas fa-globe-asia"></i> Оюутнууд цахим сургалтад сэтгэл ханамжтай байна гэж үнэлжээ</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="img/news2.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4"><i class="fas fa-globe-asia"></i>  Өнөөдрөөс бүх оюутныг PCR шинжилгээнд хамруулна</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="img/news3.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4"><i class="fas fa-globe-asia"></i>  ХААИС-ийг Дархан-Уул аймаг руу нүүлгэхийг оюутнууд дэмжихгүй байна</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="img/news4.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4"><i class="fas fa-globe-asia"></i> "Оюутны 70 мянгаа авмаар байна"</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="img/news2.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4"><i class="fas fa-globe-asia"></i> Өнөөдрөөс бүх оюутныг PCR шинжилгээнд хамруулна</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+            </div>
+          </a>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <div id="foot" class="hFooter">
+      <div class="container is-centered bagananuud">
+        <div class="side1 bagana is-5">
+          <h2 class="is-size-4">Манай хаяг</h2>
+          <div class="hayg">
+            <i class="fas fa-map-marker-alt addres"></i> <p class="textP widd">Идэр Их Сургууль, Оюутны гудамж, 8-р хороо, Сүхбаатар дүүрэг, Улаанбаатар хот, Монгол улс</p>
+          </div>
+          <h2 class="is-size-4">Мэдээлэл хүлээн авах, Холбогдох</h2>
+          <div class="hayg">
+            <i class="far fa-envelope addres"></i><p class="textP">business@ider.edu.mn</p>
+          </div>
+          <div class="hayg">
+            <i class="fas fa-phone addres"></i><p class="textP">9985-9958; 321950</p>
+          </div>
+        </div>
+        <div class="side2 bagana is-4">
+          <h2 class="is-size-4">Манай сүлжээнд нэгдээрэй</h2>
+          <div class="hayg hhe">
+            <div><a href="https://www.ider.edu.mn/" target="_blank" class="link"><i class="fas fa-globe addres"></i><p class="textP web">https://www.ider.edu.mn/</p></a></div>
+            <div><a href="https://www.facebook.com/Ider.School" target="_blank" class="link"><i class="fab fa-facebook addres"></i><p class="textP web">https://www.facebook.com/Ider.School</p></a></div>
+          </div>
+          <h2 class="is-size-4">Мэдээлэл авах</h2>
+          <p class="wd">Хэрвээ та манай сургуулийн тухай мэдээлэл авах бол өөрийн И-Мэйл хаягаа бичнэ үү!</p>
+          <div class="hayg">
+            <form class="huw">
+            <input type="email" class="email" placeholder="johncarter@gmail.com"> 
+            <input type="submit" class="nem">
+          </form>
+          </div>
+        </div>
+    </div>
+    </div>
+    <footer class="card-footer">
+      <p class="card-footer-item">
+        &copy; 2021 он Идэр Их Сургууль Мэдээллийн Тэхнологийн Тэнхим.
+      </p>
+    </footer>
+    <script src="js12/script.js"></script>
+    <!-- Carousel sick -->
+    <!-- bulma -->
+    <script src="js/bulma-carousel.min.js"></script>
+    <script>
+      bulmaCarousel.attach('#carousel-demo', {
+        slidesToScroll: 1,
+        slidesToShow: 4
+      });
+      </script>
+      <!-- jQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+    ></script>
+    
+    <script>
+      
+      function myFunction(x) {
+        if (x.matches) { // If media query matches
+          $(".post-wrapper").slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            nextArrow: $('.next'),
+            prevArrow: $('.prev'),
+          });
+        } else {
+          $(".post-wrapper").slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            nextArrow: $('.next'),
+            prevArrow: $('.prev'),
+          });
+        }
+      }
+
+      var x = window.matchMedia("(max-width: 768px)")
+      myFunction(x) // Call listener function at run time
+      x.addListener(myFunction) // Attach listener function on state changes
+    </script>
+  </body>
+</html>
